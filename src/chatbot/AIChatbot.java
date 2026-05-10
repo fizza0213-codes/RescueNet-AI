@@ -20,7 +20,7 @@ public class AIChatbot {
     //  ★ STEP 1: Replace this with your Gemini API key ★
     //  Get free key at: https://aistudio.google.com/app/apikey
     // ══════════════════════════════════════════════════════
-    public static String GEMINI_API_KEY = "AIzaSyBDPHnNezucrNX399t_aNLPk8d5ZvxUG8E";
+    public static String GEMINI_API_KEY = "........";
 
     private static final String API_URL =
             "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=";
