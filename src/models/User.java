@@ -25,8 +25,6 @@ public class User {
         this.role     = role;
         this.active   = true;
     }
-
-    // Constructor for new user registration (no userId yet)
     public User(String username, String password, String fullName,
                 String email, String phone, String role) {
         this(0, username, password, fullName, email, phone, role);
