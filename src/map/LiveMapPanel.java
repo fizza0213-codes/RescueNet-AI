@@ -15,21 +15,7 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
-/**
- * RescueNet AI — Live Map Panel
- *
- * Renders an interactive OpenStreetMap tile-based map inside Java Swing.
- * Uses standard Java2D painting — no external browser engine needed.
- * Tiles are fetched from tile.openstreetmap.org via HTTP and cached in memory.
- *
- * Features:
- *  • Victim pins (colour-coded by severity)
- *  • Shelter safe-zone overlays
- *  • Rescue team position with animated pulse
- *  • Nearest shelter / team route line
- *  • Pan (drag) and Zoom (scroll wheel)
- *  • Simulated live team movement
- */
+
 public class LiveMapPanel extends JPanel {
 
     // ── Map tile constants ────────────────────────────────────────────────────
