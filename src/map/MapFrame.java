@@ -12,17 +12,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.List;
 
-/**
- * RescueNet AI — Live Map Window
- *
- * Wraps LiveMapPanel with a full toolbar:
- *  • Load data from DB
- *  • Zoom +/–
- *  • Centre on Pakistan / Lahore
- *  • Find nearest shelter / rescue team
- *  • Clear route
- *  • Layer toggles
- */
+
 public class MapFrame extends JFrame {
 
     private final LiveMapPanel mapPanel;
