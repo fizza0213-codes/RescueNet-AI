@@ -11,20 +11,7 @@ import java.awt.geom.*;
 import java.util.*;
 import java.util.List;
 
-/**
- * RescueNet AI — Analytics Dashboard
- *
- * Renders professional charts using pure Java2D — no extra JARs required.
- * Drop-in compatible: if JFreeChart is on classpath, you can swap these
- * panels for JFreeChart ChartPanel; API is identical.
- *
- * Charts included:
- *  1. Bar chart  — Victims by disaster type
- *  2. Pie chart  — Victim status distribution
- *  3. Bar chart  — Shelter occupancy
- *  4. Line chart — Severity trend (simulated time series)
- *  5. Gauge      — Resource utilisation
- */
+
 public class AnalyticsDashboard extends JFrame {
 
     private final VictimDAO    victimDAO    = new VictimDAO();
