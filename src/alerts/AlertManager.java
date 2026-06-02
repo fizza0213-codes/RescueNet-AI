@@ -12,16 +12,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.List;
 
-/**
- * RescueNet AI — Alert System
- *
- * Components:
- *  1. AlertManager  — receives AlertEvent, stores history, dispatches UI
- *  2. AlertBadge    — animated bell icon for nav bar
- *  3. AlertPanel    — slide-in toast notifications (bottom-right corner)
- *  4. AlertCenter   — full alert history window
- *  5. NotificationSimulator — simulates SMS/Email sending
- */
 public class AlertManager {
 
     private static AlertManager instance;
